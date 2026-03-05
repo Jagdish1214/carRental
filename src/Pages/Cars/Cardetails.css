@@ -1,0 +1,110 @@
+
+.main-div {
+  min-height: 80vh;
+  margin-top: -20px; /* Moves the main-div upward by 20px */
+}
+.container .form  {
+    position: relative;
+    
+}
+
+.container .form form {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 150px;
+    width: 310px;
+    height: 450px;
+    
+    
+}
+
+.container .form form p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: left;
+}
+
+.container .form form span {
+    color: #6b7280;
+    display: flex;
+    margin-left: 115px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.container .form form .form-group label {
+  display: flex;
+  font-weight: 600;
+  color: #374151;
+  background-color: #fff;
+  font-size: 15px;
+  margin-bottom: 6px;
+    justify-content: left;
+    margin-left: 5px;
+}
+
+/* Input field styling */
+.container .form form .form-group input[type="date"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 15px;
+  color: #111827;
+  outline: none;
+  transition: all 0.2s ease;
+  margin-bottom: 15px;
+}
+
+.container .form form .form-group input[type="date"]:focus {
+  border-color: #2563eb;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Group spacing */
+.form-group {
+  margin-bottom: 18px;
+}
+
+.container .form form .form-group button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  height: 55px;
+  cursor: pointer;
+}
+
+.container .form form .form-group button:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+
+.container .form form .form-group button span {
+    display: flex;
+    font-weight: 400;
+    
+    letter-spacing: 1px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-align: center;
+        margin:0 85px;
+        color: #fff;
+}
+

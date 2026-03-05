@@ -1,0 +1,29 @@
+.manage-cars-container {
+  padding: 20px;
+}
+
+.manageBookingtitle {
+  margin-bottom: 20px;
+  font-weight: 550;
+  color: #333;
+  font-size:39px;
+
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.table thead th {
+  font-weight: 600;
+  color: #000000;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+.btn-sm {
+  min-width: 80px;
+}

@@ -1,0 +1,68 @@
+.ManageCarContainer{
+    padding: 20px;
+    margin-top: 90px;
+}
+.ManageCarContainer.tittle{
+    margin-bottom: 20px;
+    
+}
+.ManageCarContainer.manage-cars h2 {
+    font-weight: 600;
+}
+
+.ManageCarContainer.manage-cars .card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.ManageCarContainer.manage-cars .card table {
+    margin-top: 10px;
+   
+
+}
+
+.ManageCarContainer.manage-cars .badge {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+* Action buttons container spacing */
+.ManageCarContainer td button {
+    margin-right: 8px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Edit Button */
+.ManageCarContainer .editbtn {
+    background-color: #ffe8a5;   /* Yellow */
+    color: #777676;
+    border: none;
+    border-radius: 5px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.ManageCarContainer .editbtn:hover {
+    background-color: #ffd24c;
+    transform: scale(1.05);
+}
+
+/* Delete Button */
+.ManageCarContainer .DeleteBtn {
+    background-color: #ff6b7a;   /* Red */
+    color: rgb(255, 255, 255);
+        border: none;
+        margin-left: 20px;
+        border-radius: 5px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.ManageCarContainer .DeleteBtn:hover {
+    background-color: #ff4e5f;
+    transform: scale(1.05);
+}

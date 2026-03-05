@@ -1,0 +1,74 @@
+/* AdminLayout.css */
+
+/* Container */
+.admin-containers {
+    min-height: 100vh;
+    display: flex;
+    background-color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+}
+
+/* Sidebar */
+.admin-sidebar {
+    width: 220px;
+    background-color: #ffffff;
+    border-right: 2px solid #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.admin-sidebar h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.admin-sidebar .nav-link {
+  color: #495057;
+  padding: 10px 0;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  
+}
+
+.admin-sidebar .nav-link img{
+    height: 20px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+
+.admin-sidebar .nav-link:hover {
+  
+  background-color: rgba(13, 110, 253, 0.1);
+  border-radius: 4px;
+
+}
+
+/* Main content */
+.admin-main {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: #f8fafc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-containers {
+    flex-direction: column;
+  }
+  .admin-sidebar {
+    width: 100%;
+    min-height: auto;
+  }
+  .admin-main {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,73 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-dashboard h1 {
+  font-weight: 700;
+  color: #333;
+  padding-left: 30px;
+}
+
+.admin-dashboard .card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 200px;
+  height: 120px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.admin-dashboard .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.admin-dashboard .card h5 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+.admin-dashboard .card h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.admin-dashboard .row {
+  display: flex;
+  padding: 20px;
+}
+
+.admin-dashboard .card.bg-primary {
+  background-color: #ffffff !important;
+}
+
+.admin-dashboard .card.bg-success {
+  background-color: #ffffff !important;
+}
+
+.admin-dashboard .card.bg-warning {
+  background-color: #ffffff !important;
+}
+
+.admin-dashboard .card.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.admin-dashboard .card .recharts-wrapper {
+  font-size: 0.85rem;
+}
+
+.Earningscard{
+    background-color: #ffffff !important;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .admin-dashboard .row {
+    flex-direction: column;
+  }
+}

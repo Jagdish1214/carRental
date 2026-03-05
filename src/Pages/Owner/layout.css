@@ -1,0 +1,27 @@
+.owner-layout {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+    margin-top: 80px;
+    width: 270px;
+    min-height: calc(100vh - 56px);
+    border-right: 2px solid #dee2e6; /* left vertical line */
+}
+
+
+.sidebar .nav-link.active {
+    background-color: #c5dcff;
+    border-radius: 6px;
+    color: #f8f9fa;
+}
+
+
+
+
+
+
+.content-area {
+  background-color: #f8f9fa;
+}

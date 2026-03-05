@@ -1,0 +1,53 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px 0 50px;
+  cursor: pointer;
+}
+
+.car-card {
+  width: 21rem;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.car-image {
+  height: 170px;
+  object-fit:cover;
+  border-radius: 20px;
+}
+
+    .available-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(13, 110, 253, 0.8);
+    padding: 4px 12px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    }
+
+.car-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.car-description {
+  color: #555;
+  font-size: 0.95rem;
+  min-height: 40px;
+}
+
