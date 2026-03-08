@@ -20,7 +20,7 @@
 
     .hero-section .hero-image img {
     max-width: 850px;
-    width: 100%; /* responsive on small screens */
+    width: 100%;
     height: auto;
     }
 
@@ -73,7 +73,7 @@
     .hero-section .form .form-container .form-group .search-icon{
     width: 15px;
     height: 20px;
-    filter: invert(1) brightness(100); /* turns black svg to white */
+    filter: invert(1) brightness(100); 
     margin-left: 20px;
     }
     .hero-section .form .form-container .form-group span{

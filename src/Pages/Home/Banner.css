@@ -32,15 +32,14 @@
 .banner-content p {
     font-size: 18px;
     color: #ffffff;
-    margin: 0; /* No gap between paragraphs */
+    margin: 0; 
     line-height: 1.5;
     display: block;
     margin-left: 27px;
 }
 
 .banner-content p + p {
-    margin-top: 0; /* Absolutely no vertical gap between consecutive paragraphs */
-    
+    margin-top: 0; 
 }
 
 .banner-content button {

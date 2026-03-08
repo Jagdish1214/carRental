@@ -1,4 +1,4 @@
-/* Wrapper spacing */
+
 .add-car-wrapper {
     background: #f8fafc;
     min-height: 100vh;
@@ -14,7 +14,7 @@
     color: gray;
 }
 
-/* Form container */
+
 .add-car-form {
     background:none;
     border-radius: 14px;
@@ -23,13 +23,12 @@
     margin-right:250px;
 }
 
-/* Form labels */
 .add-car-form .form-label {
     font-weight: 500;
     margin-bottom: 6px;
     }
 
-/* Inputs & selects */
+
 .add-car-form .form-control,
 .add-car-form .form-select {
     border-radius: 8px;
@@ -44,17 +43,15 @@
   box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
 }
 
-/* Textarea */
 .add-car-form textarea {
   resize: none;
 }
 
-/* File input */
 .add-car-form input[type="file"] {
   padding: 8px;
 }
 
-/* Submit button */
+
 .add-car-form .btn-primary {
   background: #2563eb;
   border: none;
@@ -69,7 +66,6 @@
   transform: translateY(-1px);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .add-car-form {
     padding: 20px;

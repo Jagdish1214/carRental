@@ -1,4 +1,4 @@
-/* Page spacing */
+
 .ManageBookingscontainer {
   padding-top: 30px;
   margin-top: 70px;
@@ -8,14 +8,13 @@
   padding: 9px;
 }
 
-/* Card Styling */
+
 .card {
   border-radius: 14px !important;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06) !important;
   overflow: hidden;
 }
 
-/* Header Styling */
 .card-header {
   padding: 18px 24px !important;
   border-bottom: 1px solid #f1f1f1 !important;
@@ -29,7 +28,6 @@
   font-size: 13px;
 }
 
-/* Table */
 .table {
   margin-bottom: 0 !important;
 }
@@ -48,25 +46,24 @@
   vertical-align: middle;
 }
 
-/* Hover effect */
 .table-hover tbody tr:hover {
   background-color: #f4f6fb;
   transition: 0.2s ease-in-out;
 }
 
-/* Price column */
+
 .text-success {
   font-weight: 600 !important;
 }
 
-/* Dropdown */
+
 .form-select-sm {
   border-radius: 8px !important;
   font-size: 13px !important;
   cursor: pointer;
 }
 
-/* Delete button */
+
 .btn-outline-danger {
   border-radius: 6px !important;
   font-size: 13px !important;
@@ -80,7 +77,7 @@
   transform: scale(1.05);
 }
 
-/* Empty state */
+
 .text-muted {
   font-size: 14px;
 }

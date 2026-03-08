@@ -25,7 +25,7 @@
     padding: 6px 10px;
     font-size: 12px;
 }
-* Action buttons container spacing */
+
 .ManageCarContainer td button {
     margin-right: 8px;
     padding: 6px 14px;
@@ -37,9 +37,8 @@
     transition: all 0.3s ease;
 }
 
-/* Edit Button */
 .ManageCarContainer .editbtn {
-    background-color: #ffe8a5;   /* Yellow */
+    background-color: #ffe8a5;
     color: #777676;
     border: none;
     border-radius: 5px;
@@ -52,9 +51,8 @@
     transform: scale(1.05);
 }
 
-/* Delete Button */
 .ManageCarContainer .DeleteBtn {
-    background-color: #ff6b7a;   /* Red */
+    background-color: #ff6b7a;   
     color: rgb(255, 255, 255);
         border: none;
         margin-left: 20px;
