@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://urbanrentals-backend-production.up.railway.app",
   withCredentials: true, // ⭐ sends JSESSIONID cookie
 });
 
