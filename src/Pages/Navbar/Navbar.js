@@ -12,14 +12,7 @@ import api from "../../api/axiosConfig";
     const Navigate=useNavigate();
 
 
-    const handleNavigate = (path)=>{
-      if(LoginUser){
-        Navigate(path);
-        setShowLogin(false)
-      }else{
-        setShowLogin(true);
-      }
-    }
+    
 
     const handleLogout = async (e) => {
   e.preventDefault();

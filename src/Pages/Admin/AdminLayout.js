@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Outlet, NavLink, useNavigate } from "react-router-dom";
 import "./AdminLayout.css";
@@ -6,8 +5,8 @@ import { assets } from "../assets/assets";
 import api from "../../api/axiosConfig";
 import { toast } from "react-toastify";
 import AdminTopbar from "./adminTopbar";
-const AdminLayout = () => {
 
+const AdminLayout = () => {
 
   const navigate = useNavigate();
 
@@ -20,36 +19,44 @@ const AdminLayout = () => {
 
       toast.success("Logged out successfully");
 
-      navigate("/");   // redirect to login page
+      navigate("/");
     } catch (error) {
       toast.error("Logout failed");
     }
   };
 
   return (
-    <div className="admin-containers d-flex" style={{background:" #f8fafc"}}>
+    <div className="admin-containers d-flex" style={{ background: "#f8fafc" }}>
 
-        <AdminTopbar></AdminTopbar>
-    
+      <AdminTopbar></AdminTopbar>
+
       <aside className="admin-sidebar p-3 bg-light">
         <h3>Admin Panel</h3>
-        <nav className="nav flex-column mt-4">
-            <NavLink to="/admin/dashboard" className="nav-link">
-            <img src={assets.dashboardIcon}></img>
-            Dashboard</NavLink>
-            <NavLink to="/admin/users" className="nav-link">
-            <img src={assets.users_icon}></img>
-            Manage Users</NavLink>
-            <NavLink to="/admin/cars" className="nav-link">
-            <img src={assets.carIcon}></img>
-            Manage Cars</NavLink>
-            <NavLink to="/admin/bookings" className="nav-link">
-            <img src={assets.listIcon}></img>
-            Manage Bookings</NavLink>
 
-            {/* ✅ Logout Button */}
-          <button 
-            onClick={handleLogout} 
+        <nav className="nav flex-column mt-4">
+
+          <NavLink to="/admin/dashboard" className="nav-link">
+            <img src={assets.dashboardIcon} alt="dashboard" />
+            Dashboard
+          </NavLink>
+
+          <NavLink to="/admin/users" className="nav-link">
+            <img src={assets.users_icon} alt="users" />
+            Manage Users
+          </NavLink>
+
+          <NavLink to="/admin/cars" className="nav-link">
+            <img src={assets.carIcon} alt="cars" />
+            Manage Cars
+          </NavLink>
+
+          <NavLink to="/admin/bookings" className="nav-link">
+            <img src={assets.listIcon} alt="bookings" />
+            Manage Bookings
+          </NavLink>
+
+          <button
+            onClick={handleLogout}
             className="btn btn-danger mt-4"
           >
             Logout
@@ -61,6 +68,7 @@ const AdminLayout = () => {
       <main className="admin-main flex-grow-1 p-4">
         <Outlet />
       </main>
+
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Sidebar from "./Sidebar";
-import Topbar from "./Topbar";
+
 import "./dashboard.css";
 import { assets } from "../assets/assets";
 import api from "../../api/axiosConfig";
